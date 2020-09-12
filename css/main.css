@@ -93,7 +93,6 @@ textarea {
   padding: 0em;
 }
 
-
 /* Utility classes */
 
 
@@ -117,11 +116,18 @@ header img {
 
 
 /* Main */
+main div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  background-color: chartreuse;
+}
  p {
   background-color: blueviolet;
   margin: 0;
 }
-
 
 /* Footer */
 footer {
@@ -132,13 +138,12 @@ footer ul {
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
 }
 footer img {
   width: 25%;
 }
-
 
 /* Index */
 
