@@ -117,7 +117,10 @@ header img {
 
 
 /* Main */
-
+ p {
+  background-color: blueviolet;
+  margin: 0;
+}
 
 
 /* Footer */
