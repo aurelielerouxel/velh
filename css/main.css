@@ -87,7 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /* General rules */
-
+* {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0em;
+  padding: 0em;
+}
 
 
 /* Utility classes */
@@ -105,7 +109,7 @@ header article{
   /* text-align: center; */
 }
 img {
-  width: 25%;
+  width: 50%;
 }
 
 
