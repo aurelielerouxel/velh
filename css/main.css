@@ -95,7 +95,18 @@ textarea {
 
 
 /* Header */
-
+header {
+  background-color: aqua;
+}
+header article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* text-align: center; */
+}
+img {
+  width: 25%;
+}
 
 
 /* Nav */
