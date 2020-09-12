@@ -102,19 +102,39 @@ textarea {
 header {
   background-color: aqua;
 }
-header article{
+header article {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* text-align: center; */
+  text-align: center;
 }
-img {
+header img {
   width: 50%;
 }
 
-
 /* Nav */
 
+
+
+/* Main */
+
+
+
+/* Footer */
+footer {
+  background-color: aqua;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+  list-style: none;
+}
+footer img {
+  width: 25%;
+}
 
 
 /* Index */
